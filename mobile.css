@@ -1,0 +1,706 @@
+html, body {
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+background-color: white;
+color: black;
+}
+
+/*--- Navbar ---*/
+#navbar{
+    position: static;
+    cursor: grab;
+    background-color: #2980B9;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    width: 100%;
+    height: 6em;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+}
+#ul-nav{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 100%;
+    padding: 0;
+    list-style: none;
+}
+.list-nav{
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+/*-------------*/
+
+a {
+    outline: none;
+    text-decoration: none;
+    color: white;
+  }
+   
+  a:hover {
+    color:  rgba(255, 255, 255, 0.795);
+    border-bottom: 0.025rem solid;
+}
+
+.ordi{
+  display: none;
+}
+.dropdown{
+  display: none;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border: white solid;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 16px 20px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    background-color: #3498DB;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #2980B9;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    left:30%;
+}
+
+
+/*--- avatar ---*/
+.biche{
+  border:none;
+  background-image:url('data/avatars/deer.jpg');
+  background-repeat:no-repeat;
+  background-position:top left;
+  background-size: cover;
+  width:100px;
+  height:100px;
+}
+   
+.dauphin{
+  border:none;
+  background-image:url('data/avatars/dolphin.jpg');
+  background-repeat:no-repeat;
+  background-position:top left;
+  background-size: cover;
+  width:100px;
+  height:100px;
+}
+
+.lion{
+  border:none;
+  background-image:url('data/avatars/lion.jpg');
+  background-repeat:no-repeat;
+  background-position:top left;
+  background-size: cover;
+  width:100px;
+  height:100px;
+}
+     
+.manchot{
+  border:none;
+  background-image:url('data/avatars/penguin.jpg');
+  background-repeat:no-repeat;
+  background-position:top left;
+  background-size: cover;
+  width:100px;
+  height:100px;
+}
+
+.zebre{
+  border:none;
+  background-image:url('data/avatars/zebra.jpg');
+  background-repeat:no-repeat;
+  background-position:top left;
+  background-size: cover;
+  width:100px;
+  height:100px;
+}
+
+.ninho{
+  border:none;
+  background-image:url('data/avatars/ninho.jpg');
+  background-repeat:no-repeat;
+  background-position:top left;
+  background-size: cover;
+  width:100px;
+  height:100px;
+}
+
+.nepal{
+  border:none;
+  background-image:url('data/avatars/nepal.jpg');
+  background-repeat:no-repeat;
+  background-position:top left;
+  background-size: cover;
+  width:100px;
+  height:100px;
+}
+
+.nekfeu{
+  border:none;
+  background-image:url('data/avatars/nekfeu.jpg');
+  background-repeat:no-repeat;
+  background-position:top left;
+  background-size: cover;
+  width:100px;
+  height:100px;
+}
+
+.freeze{
+  border:none;
+  background-image:url('data/avatars/freeze.jpg');
+  background-repeat:no-repeat;
+  background-position:top left;
+  background-size: cover;
+  width:100px;
+  height:100px;
+}
+/*--------------*/
+
+.list-go{
+  color: white;
+  border: 0.1rem solid black;
+  background-color: rgba(0, 0, 0, 0.74);
+  border-collapse: collapse;
+  list-style: none;
+  text-align: left
+}
+
+
+/*--- index.php ---*/
+.flexbox-index {
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+.flexbox-index .flexbox-div-index {
+  background-color: #3498DB;
+  margin-top: 10%;
+  border-radius: 30px;
+}
+.btn-flex-index {
+  background-color: #2980B9;
+  border-radius: 30px;
+  color: black;
+}
+.btn-flex-index:hover{
+color: white;
+}
+.flexbox-index h1{
+color: white;
+}
+/*-----------------*/
+
+/*--- main.php ---*/
+#bg_main{
+  background-image: url("data/images/FinalBg.jpg");
+  background-repeat: repeat;
+}
+.flexbox-main {
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+.flexbox-main .flexbox-div-main {
+  background-color: #3498DB;
+  margin-top: 10%;
+  border-radius: 30px;
+}
+.btn-flex-main{
+  background-color: #2980B9;
+  border-radius: 30px;
+  color: black;
+}
+.btn-flex-main:hover{
+color: white;
+}
+.flexbox-main h1{
+color: white;
+}
+.flexbox-div-mainbg a{
+  color: black;
+}
+.flexbox-main hr{
+  width: 50%;
+  border: 0.5px solid white;
+}
+.flexbox-div-mainbg{
+  background-color: #2980B9;
+  border-radius: 30px;
+}
+/*----------------*/
+
+/*--- question.php(+time) ---*/
+.bg_question{
+  background-image: url("data/images/FinalBg.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+}
+.flexbox-question {
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+.flexbox-question .flexbox-div-question {
+  background-color: #3498DB;
+  margin-top: 50%;
+border-radius: 25px;
+font-size: 120%;
+}
+.btn-flex-question{
+  border: 0.1rem solid white;
+
+  color: white;
+  outline: none;
+  background: none;
+  font-size: 125%;
+}
+.flexbox-div-questionbg{
+  background-color: #2980B9;
+  border-radius: 30px;
+}
+.flexbox-question-choix {
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.label-question{
+  border: 0.1rem solid white;
+  border-radius: 5px;
+}
+#q1{
+  position: absolute;
+  left: -9999px;
+}
+#q2{
+  position: absolute;
+  left: -9999px;
+}
+#q3{
+  position: absolute;
+  left: -9999px;
+}
+#q4{
+  position: absolute;
+  left: -9999px;
+}
+#q5{
+  position: absolute;
+  left: -9999px;
+}
+input:checked + label {
+  background-color: #d4d400;
+}
+
+input:checked + label::before {
+  background-color: #fff;
+}
+/*---------------------------*/
+
+/*--- faq.php ---*/
+.flexbox-faq {
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+.flexbox-faq .flexbox-div-faq {
+  background-color: #3498DB;
+  margin-top: 10%;
+border-radius: 25px;
+}
+.flexbox-faq-lien {
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.flexbox-faq hr{
+  width: 50%;
+  border: 0.5px solid white;
+}
+/*---------------*/
+
+/*--- final.php ---*/
+.bg_final{
+  background-image: url("data/images/FinalBg.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+}
+.flexbox-final {
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+.flexbox-final .flexbox-div-final {
+  background-color: #3498DB;
+  margin-top: 10%;
+border-radius: 25px;
+}
+.flexbox-final hr{
+  width: 50%;
+  border: 0.5px solid white;
+}
+.flexbox-div-finalbg{
+  background-color: #2980B9;
+  border-radius: 30px;
+}
+/*-----------------*/
+
+/*--- parametres.php ---*/
+.flexbox-parametres {
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+.flexbox-parametres .flexbox-div-parametres {
+  background-color: #3498DB;
+  margin-top: 10%;
+border-radius: 25px;
+}
+.flexbox-div-parametresbg{
+  background-color: #2980B9;
+  border-radius: 30px;
+}
+.flexbox-div-parametresbg table { 
+  margin : 0 auto 
+}
+/*----------------------*/
+
+/*--- profil.php ---*/
+.flexbox-profil {
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+.flexbox-profil .flexbox-div-profil {
+  background-color: #3498DB;
+  margin-top: 10%;
+border-radius: 25px;
+}
+.flexbox-div-profilbg{
+  background-color: #2980B9;
+  border-radius: 30px;
+}
+.flexbox-div-profilbg table { 
+  margin : 0 auto 
+}
+/*------------------*/
+
+/*--- amis.php ---*/
+.flexbox-amis {
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+.flexbox-amis .flexbox-div-amis {
+  background-color: #3498DB;
+  margin-top: 10%;
+border-radius: 25px;
+}
+.pseudo_in{
+  border-bottom: 0.1rem solid white;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+
+  color: white;
+  outline: none;
+  background: none; 
+}
+.pseudo_in::-webkit-input-placeholder {
+  color: white !important;
+  }
+  .pseudo_in:-moz-placeholder { /* Firefox 18- */
+  color: white !important; 
+  }
+  .pseudo_in::-moz-placeholder {  /* Firefox 19+ */
+  color: white !important; 
+  }
+  .pseudo_in:-ms-input-placeholder { 
+  color: white !important; 
+}
+  
+/*----------------*/
+
+/*--- inscription.php ---*/
+.flexbox-inscription {
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+.flexbox-inscription .flexbox-div-inscription {
+  background-color: #3498DB;
+  margin-top: 40%;
+border-radius: 25px;
+}
+
+.design_inscription::-webkit-input-placeholder {
+  color: white !important;
+  }
+  .design_inscription:-moz-placeholder { /* Firefox 18- */
+  color: white !important; 
+  }
+  .design_inscription::-moz-placeholder {  /* Firefox 19+ */
+  color: white !important; 
+  }
+  .design_inscription:-ms-input-placeholder { 
+  color: white !important; 
+}
+.design_inscription{
+  border-bottom: 0.1rem solid white;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+
+  color: white;
+  outline: none;
+  background: none;
+  font-size: 125%;
+  margin-bottom: 15%;
+}
+
+.btndesign_inscription{
+  border: 0.1rem solid white;
+
+  color: white;
+  outline: none;
+  background: none;
+  font-size: 125%;
+}
+/*-----------------------*/
+
+/*--- connexion.php ---*/
+.flexbox-connexion {
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+.flexbox-connexion .flexbox-div-connexion {
+  background-color: #3498DB;
+  margin-top: 40%;
+border-radius: 25px;
+}
+
+.design_connexion::-webkit-input-placeholder {
+  color: white !important;
+  }
+  .design_connexion:-moz-placeholder { /* Firefox 18- */
+  color: white !important; 
+  }
+  .design_connexion::-moz-placeholder {  /* Firefox 19+ */
+  color: white !important; 
+  }
+  .design_connexion:-ms-input-placeholder { 
+  color: white !important; 
+}
+.design_connexion{
+  border-bottom: 0.1rem solid white;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+
+  color: white;
+  outline: none;
+  background: none;
+  font-size: 125%;
+  margin-bottom: 15%;
+}
+
+.btndesign_connexion{
+  border: 0.1rem solid white;
+
+  color: white;
+  outline: none;
+  background: none;
+  font-size: 125%;
+}
+/*---------------------*/
+
+/*--- add.php ---*/
+.flexbox-add {
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+.flexbox-add .flexbox-div-add {
+  background-color: #3498DB;
+  margin-top: 10%;
+border-radius: 25px;
+}
+.flexbox-addtb {
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+.flexbox-addtb .flexbox-div-addtb {
+  background-color: #2980B9;
+  margin-top: 10%;
+}
+.flexbox-addtb table{
+  border-collapse: collapse;
+}  
+.flexbox-addtb table td{
+  border: 1px solid black;
+}  
+/*---------------*/
+
+/*--- mdp.php ---*/
+.flexbox-mdp {
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+.flexbox-mdp .flexbox-div-mdp {
+  background-color: #3498DB;
+  margin-top: 10%;
+border-radius: 25px;
+}
+
+/*---------------*/
+
+/*--- home_kulturio.php ---*/
+.flexbox-home_kulturio {
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+.flexbox-home_kulturio .flexbox-div-home_kulturio {
+  background-color: #3498DB;
+  margin-top: 40%;
+  border-radius: 30px;
+}
+.flexbox-home_kulturio h1{
+color: white;
+}
+.flexbox-div-home_kulturiobg a{
+  color: black;
+}
+.flexbox-home_kulturio hr{
+  width: 50%;
+  border: 0.5px solid white;
+}
+.flexbox-div-home_kulturiobg{
+  background-color: #2980B9;
+  border-radius: 30px;
+}
+/*------------------------*/
+
+/*--- room.php ---*/
+.flexbox-room {
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+.flexbox-room .flexbox-div-room {
+  background-color: #3498DB;
+  margin-top: 40%;
+  border-radius: 30px;
+}
+.flexbox-room .flexbox-div-room button{
+  background-color: #3498DB;
+  border: 0;
+}
+.flexbox-room h1{
+color: white;
+}
+.flexbox-room h2{
+  color: white;
+}
+.flexbox-div-roombg a{
+  color: black;
+}
+.flexbox-room hr{
+  width: 50%;
+  border: 0.5px solid white;
+}
+.flexbox-div-roombg{
+  background-color: #2980B9;
+  border-radius: 30px;
+}
+/*----------------*/
